@@ -1,1 +1,3 @@
 include ofa/utils/BPE/*.json
+include ofa/utils/BPE/*.txt
+include ofa/utils/BPE/*.bpe
