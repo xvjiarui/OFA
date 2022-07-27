@@ -7,8 +7,7 @@ setup(
     description="",
     author="OFA",
     packages=find_packages(),
-    install_requires = [
-  'fairseq @ git+ssh://git@github.com/xvjiarui/OFA-fairseq@main#egg=fairseq',
-],
+    # install_requires=['fairseq @ git+ssh://git@github.com/xvjiarui/OFA-fairseq@main#egg=fairseq'],
+    install_requires=['fairseq @ git+https://github.com/xvjiarui/OFA-fairseq@main#egg=fairseq'],
     include_package_data=True,
 )
